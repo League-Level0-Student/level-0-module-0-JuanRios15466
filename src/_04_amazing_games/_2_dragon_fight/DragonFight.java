@@ -36,7 +36,7 @@ int dragonAttack= 0;
 
 				// 3. Ask the player in a pop-up if they want to attack the dragon with a yell
 				// or a kick
-	String attack = JOptionPane.showInputDialog("do you want to yell or kick the dragon?")
+	String attack = JOptionPane.showInputDialog("do you want to yell or kick the dragon?");
 				// 4. If they typed in "yell":
 	if (attack.equalsIgnoreCase("yell")) {
 					  // -- Find a random number between 0 and 10 and store it in playerAttack. Use
@@ -92,7 +92,7 @@ JOptionPane.showMessageDialog(null,"you have lost all of your treasure.");
 
 	static void dragonLost() {
 		// 12. Tell the user that the dragon has been defeated and they get a ton of gold!
-
+JOptionPane.showMessageDialog(null,"you have defeated the dragon!");
 		System.exit(0);   //This code ends the program
 	}
 
